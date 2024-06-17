@@ -6,11 +6,11 @@
  DATE REVIEWED:		
  WRITTEN FOR:          RV575 
  PURPOSE:              To develop a mock data set for RedCAP output that can be used by programming team to derive SDTM data sets 
- OVERVIEW:             This study is designed to identify the minimal optimal dose (dose de-escalation) for ALFQ adjuvant in HIV 
+ OVERVIEW:             This study is designed to identify the minimal optimal dose (dose de-escalation) for exploratory adjuvant in HIV 
  					   vaccines to maintain safety outcomes, and reduce costs of production in future vaccine development, since 
  					   production can be complex and expensive and could greatly impact vaccine supply.  Therefore, this study is 
  					   designed to evaluate outcomes of safety, tolerability and immunogenicity of three different dose levels of 
- 					   ALFQ in a population of healthy adults without HIV. 
+ 					   exploratory in a population of healthy adults without HIV. 
                                           
  INPUT DATA:          Not applicable  
  OUTPUT DATA:         Datalive/MockData   
@@ -36,7 +36,7 @@
  *************************************************************************************************************************************/
 libname Mockdata "/group/Stat/NEW/RV575/DataLive/MockData";                                 
 libname datalive "/group/Stat/NEW/RV575/DataLive";
-libname myfile "C:/Users/mpaudel/OneDrive - Henry M. Jackson Foundation for the Advancement of Military Medicine/Desktop/RV575";
+libname myfile "C:/Users/mpaudel/OneDrive ";
 libname formats "/group/Stat/NEW/RV575/Formats/RV575_Formats"; 
 run;
 
